@@ -1,0 +1,6 @@
+^\.git$
+^\.github$
+^README\.Rmd$
+^data-raw$
+^DEVELOPMENT\.md$
+

@@ -1,0 +1,21 @@
+citHeader("To cite LKOM in publications, please use:")
+
+citEntry(
+  entry = "Article",
+  title = "LKOM: longitudinal knockoffs with masked likelihood ratios",
+  author = personList(
+    person("Yundi", "Hu"),
+    person("He", "Xu"),
+    person("Shiyang", "Ma"),
+    person("Wenjian", "Bi"),
+    person("Xiaolei", "Lin")
+  ),
+  year = "2026",
+  journal = "bioRxiv",
+  note = "Preprint details to be updated after posting",
+  textVersion = paste(
+    "Hu Y, Xu H, Ma S, Bi W, Lin X (2026).",
+    "LKOM: longitudinal knockoffs with masked likelihood ratios. bioRxiv."
+  )
+)
+

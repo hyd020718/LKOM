@@ -1,0 +1,29 @@
+Package: LKOM
+Type: Package
+Title: Longitudinal Knockoffs with Masked Likelihood Ratios
+Version: 0.1.0
+Authors@R: c(
+    person("Yundi", "Hu", role = c("aut", "cre"),
+           email = "hyd020718@gmail.com"),
+    person("He", "Xu", role = "aut"),
+    person("Shiyang", "Ma", role = "aut"),
+    person("Wenjian", "Bi", role = "aut"),
+    person("Xiaolei", "Lin", role = "aut")
+    )
+Description: Implements the masked-likelihood-ratio component of LKOM for
+    joint analysis of trajectory-mean and within-subject variability channels
+    in longitudinal association studies. The package provides deterministic
+    and Gibbs inference engines, swap-symmetric marginal-screen handling,
+    knockoff+ selection, four-state association classification, optional
+    whitening for related samples, and an interface to a Julia implementation
+    of WiSER and TrajGWAS.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Depends: R (>= 4.2.0)
+Imports: stats, utils
+SystemRequirements: Julia (>= 1.11), with the environment in inst/julia;
+    PLINK 2 and GCTA are needed only for optional data-preparation workflows
+URL: https://github.com/hyd020718/LKOM
+BugReports: https://github.com/hyd020718/LKOM/issues
+RoxygenNote: 7.3.2
+
